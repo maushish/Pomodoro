@@ -1,0 +1,48 @@
+:root{
+    font-size: 65%;    /*  1 rem=16px  */
+    background-color: #20262E;
+
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{height: 100%;
+
+}
+
+
+#h1 {
+    color: greenyellow;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#study ,#break {
+    color: crimson;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#min,#sec{color: cornsilk;
+    font-size: 80px;
+    font-family: sans-serif;
+
+}
+#i{color: cornsilk;
+    font-size: 80px;
+    font-family: sans-serif
+
+}
+#start,#reset{
+    font-size: 60px;
+    font-family: sans-serif;
+
+}
+
+/*----Centering----*/
+section{
+    display: flex;
+    align-items: center;
+}
+
