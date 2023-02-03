@@ -4,58 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POMODORO</title>
-    <!--font------------>
+    <title>Pomodoro Timer</title>
+
+    <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <!--icons--------------------->
-    <script src="https://kit.fontawesome.com/e04ca316cf.js" crossorigin="anonymous"></script>
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
 
-    <!------css------------->
-    <link rel="stylesheet" href="style.css">
-    
+    <!-- CSS -->
+    <link rel="stylesheet" href="Stylesheet/style.css">
+
+
 </head>
 <body>
     <section>
         <div class="container">
-            <h1 id="h1">Pomodoro</h1>
+            <h1>pomodoro</h1>
+
             <div class="panel">
-                <p id="study" class="active">Study</p>
-                <p id="break">Break</p>
+                <p id="work">work</p>
+                <p id="break">break</p>
             </div>
-            <!----------------------------------Creating the clock---------------------------------------------->
+
             <div class="timer">
                 <div class="circle">
-                    <p id="min">25</p>
-                    <p id="i">:</p>
-                    <p id="sec">00</p>
-
+                    <div class="time">
+                        <p id="minutes"></p>
+                        <p>:</p>
+                        <p id="seconds"></p>
+                    </div>
                 </div>
             </div>
-            <!--------------------------------Creating controls of timer----------------------------------------------->
+
             <div class="controls">
-                <button id ="start" onclick="start()"><i class="fa-duotone fa-play"></i></button>
-                <a id="reset" href="/"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+                <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
+
+                <a id="reset" href="./"><i class="fa-solid fa-arrow-rotate-left"></i></a>
             </div>
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!---script------------------------------------------------------------------------------>
+    <!-- SCRIPT -->
     <script src="index.js"></script>
 </body>
 </html>
