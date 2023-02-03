@@ -70,7 +70,7 @@ section {
     transition: 1s ease-in;
 }
 
-.painel p.active {
+.panel p.active {
     opacity: 1;
     color: var(--color-secondary);
 }
